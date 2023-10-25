@@ -1,0 +1,29 @@
+.container-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    height: 99%;
+}
+
+.update-back-button {
+    padding: 10px 10px;
+    margin: 25px;
+    border-radius: 200px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    width: 10%;
+}
+
+option[value="true"] {
+   color: green !important;
+}
+
+option[value="false"]  {
+    color: red !important;
+}
+
+
